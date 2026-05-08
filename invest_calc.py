@@ -1,5 +1,5 @@
 # My first investment analysis tool
-# Goal: Calculate compound interest for my future goals in Madrid 2028
+# Goal: Calculate compound interest for my future goals in 2028
 
 def calculate_wealth(initial_investment, monthly_deposit, annual_rate, years):
     monthly_rate = annual_rate / 12 / 100
@@ -21,4 +21,4 @@ final_wealth = calculate_wealth(starting_amount, monthly_save, expected_return, 
 
 print(f"--- Investment Projection ---")
 print(f"After {period} years, my portfolio will be: ${final_wealth}")
-print(f"Path to Madrid is clear. Keep coding! 🚀")
+print(f"Path to 1M$ is clear. Keep coding! 🚀")
